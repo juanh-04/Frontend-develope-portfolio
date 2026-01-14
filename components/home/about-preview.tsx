@@ -42,7 +42,6 @@ export function AboutPreview() {
 						viewport={{ once: true }}
 						className="flex flex-col justify-center"
 					>
-						<h3 className="text-2xl font-bold mb-4">Professional Engineer</h3>
 						<p className="text-muted-foreground mb-6">
 							I’m a junior at Stanford University studying Mechanical Engineering with a passion for designing and building from the spark of an idea to a finished project. I thrive on the process of bringing concepts to life and enjoy working across disciplines to solve complex problems. My experience as a Systems and Test Engineer at Northrop Grumman has strengthened my technical foundation and given me hands-on exposure to high-impact projects. Along the way, I’ve pushed myself to develop a diverse set of skills as an engineer, combining creativity with technical rigor. I’m excited to continue expanding my skillset and mindset, taking on new challenges, and making a meaningful impact through my work.
 						</p>
