@@ -23,13 +23,6 @@ export default function EducationPage() {
 					>
 						Education
 					</motion.h1>
-					<motion.p
-						variants={fadeIn('down', 0.3)}
-						className="text-lg text-muted-foreground mb-12"
-					>
-						My academic journey and achievements in the field of engineering.
-					</motion.p>
-
 					<div className="space-y-8">
 						{education.map((edu, index) => (
 							<motion.div
@@ -63,15 +56,9 @@ export default function EducationPage() {
 										</div>
 
 										<div className="mt-6">
-											<h3 className="text-lg font-semibold mb-3">Achievements</h3>
+											<h3 className="text-lg font-semibold mb-3">Relevant Course Work</h3>
 											<ul className="space-y-2">
-												{edu.achievements.map((achievement, i) => (
-													<li key={i} className="flex items-start">
-														<Award className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
-														<span className="text-muted-foreground">{achievement}</span>
-													</li>
-												))}
-											</ul>
+											</ul> Engineering Thermodynamics; Intro to Fluids Engineering; Solid Mechanics; Mechanics of Materials; Programming Methodology, Mechanical Systems Design; Dynamics Systems, Vibrations and Controls
 										</div>
 									</CardContent>
 								</Card>

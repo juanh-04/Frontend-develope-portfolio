@@ -22,15 +22,8 @@ export default function ExperiencePage() {
 						variants={fadeIn('down', 0.2)}
 						className="text-4xl font-bold mb-6"
 					>
-						Professional Experience
+						Work Experience and Leadership
 					</motion.h1>
-					<motion.p
-						variants={fadeIn('down', 0.3)}
-						className="text-lg text-muted-foreground mb-12"
-					>
-						My journey through various roles and projects in the engineering field.
-					</motion.p>
-
 					<div className="space-y-8">
 						{experiences.map((exp, index) => (
 							<motion.div
@@ -67,17 +60,6 @@ export default function ExperiencePage() {
 													</li>
 												))}
 											</ul>
-										</div>
-
-										<div className="mt-6">
-											<h3 className="text-lg font-semibold mb-3">Technologies & Tools</h3>
-											<div className="flex flex-wrap gap-2">
-												{exp.technologies.map((tech, i) => (
-													<Badge key={i} variant="secondary">
-														{tech}
-													</Badge>
-												))}
-											</div>
 										</div>
 									</CardContent>
 								</Card>

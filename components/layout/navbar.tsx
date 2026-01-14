@@ -43,14 +43,6 @@ export function Navbar() {
 		>
 			<div className="container flex h-16 items-center justify-between py-4">
 				<div className="flex items-center gap-6 md:gap-10">
-					<Link href="/" className="flex items-center space-x-2">
-						<motion.div
-							whileHover={{ scale: 1.05 }}
-							className="font-bold text-2xl text-gradient"
-						>
-							Portfolio
-						</motion.div>
-					</Link>
 					<nav className="hidden md:flex gap-6">
 						{siteConfig.mainNav.map((item) => (
 							<Link
@@ -102,9 +94,6 @@ export function Navbar() {
 									</DropdownMenuTrigger>
 									<DropdownMenuContent align="end">
 										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
-												GitHub
-											</Link>
 										</DropdownMenuItem>
 										<DropdownMenuItem asChild>
 											<Link href={siteConfig.links.linkedin} target="_blank" rel="noreferrer">
@@ -112,9 +101,6 @@ export function Navbar() {
 											</Link>
 										</DropdownMenuItem>
 										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
-												Twitter
-											</Link>
 										</DropdownMenuItem>
 									</DropdownMenuContent>
 								</DropdownMenu>
