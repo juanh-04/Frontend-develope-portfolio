@@ -58,7 +58,8 @@ export default function EducationPage() {
 										<div className="mt-6">
 											<h3 className="text-lg font-semibold mb-3">Relevant Course Work</h3>
 											<ul className="space-y-2">
-											</ul> Engineering Thermodynamics; Intro to Fluids Engineering; Solid Mechanics; Mechanics of Materials; Programming Methodology, Mechanical Systems Design; Dynamics Systems, Vibrations and Controls
+											</ul>Engineering Thermodynamics; Intro to Fluids Engineering; Mechanics of Materials; Assistive Technology Design; Mechanical Systems Design; Dynamics Systems Vibrations and Controls
+
 										</div>
 									</CardContent>
 								</Card>
