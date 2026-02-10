@@ -1,5 +1,5 @@
 export const siteConfig = {
-	name: 'Work',
+	name: 'Engineering Portfolio',
 	description:
 		'A professional portfolio website template for engineering students.',
 	mainNav: [
@@ -104,9 +104,25 @@ export const projects: Project[] = [
 
 			How?: Started with engineering sketches, to identify changes. Then two prototypes to test a locking control arm, synced to a pully that launches the ball in the air. 
 
-			Results: Constructed a final design based on the CAD model using 3D printed parts and laser-cut birch.Created a catapult that was able to launch a ping-pong ball 3 feet.`,
+			Results: Constructed a final design based on the CAD model using 3D printed parts and laser-cut birch. Created a catapult that was able to launch a ping-pong ball 3 feet.`,
 		image: "/IMG_9146.jpg",
 		tags: ['Fusion360', '3D Printing', 'Laser Cutting'],
+
+		
+	},
+
+	{
+		title: 'Death Star Trench Run',
+		description: 
+			`What?: Tasked with creating a Blender scene that showcased original lighting, composition, and models. 
+
+			How?: I used reference images from the trench run scene in Star Wars: A New Hope. The ships were modeled in Blender with materials chosen to closely match the film. Lighting and camera angles were carefully planned to enhance the sense of motion and create a cinematic chase-like atmosphere.
+
+			Results: The final scene closely followed the reference material while meeting all project requirements, including the effective use of ray tracing, custom models, and Blender’s built-in visual effects.`,
+		image: "/juanh04_csmith27.png",
+		tags: ['Blender'],
+
+		
 	},
 ];
 
